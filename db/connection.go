@@ -1,7 +1,7 @@
 // package db
 
-// import "go.mod/configs"
+// import "github.com/CordeiroAboumrad/first_go_api/configs"
 
 // func openConnection(){
-// 	// conf := configs.
+
 // }
