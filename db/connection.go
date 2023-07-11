@@ -8,7 +8,7 @@ import (
 	_ "github.com/lib/pq"
 )
 
-func openConnection() (*sql.DB, error) {
+func OpenConnection() (*sql.DB, error) {
 	config := configs.GetDB()
 
 	sc := fmt.Sprintf("host=%s port=%s user=%s password=%s dbname=%s sslmode=disable",
