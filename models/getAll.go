@@ -22,6 +22,8 @@ func GetAll() (todos []Todo, err error) {
 		if err != nil {
 			continue
 		}
+
+		todos = append(todos, todo)
 	}
 
 	return
